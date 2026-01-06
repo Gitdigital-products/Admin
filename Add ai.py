@@ -5,7 +5,7 @@ from azure.core.credentials import AzureKeyCredential
 
 endpoint = "https://models.github.ai/inference"
 model = "meta/Llama-4-Scout-17B-16E-Instruct"
-token = os.environ["GITHUB_TOKEN"]
+token = OLLAMA_TOKEN"]
 
 client = ChatCompletionsClient(
     endpoint=endpoint,
